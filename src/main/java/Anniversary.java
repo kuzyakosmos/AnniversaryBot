@@ -18,17 +18,17 @@ public class Anniversary {
     }
 
     //Неделевщина
-    public boolean isWeekAnniversary()  {
+    public boolean isWeekAnniversary() {
         return now.getDayOfWeek() == FRIDAY;
     }
 
     //Месецевщина
-    public boolean isMonthAnniversary()  {
+    public boolean isMonthAnniversary() {
         return now.getDayOfMonth() == 25;
     }
 
     //Годовщина
-    public boolean isYearAnniversary()  {
+    public boolean isYearAnniversary() {
         return isMonthAnniversary() || now.getMonth() == JANUARY;
     }
 

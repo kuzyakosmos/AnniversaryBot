@@ -18,6 +18,8 @@ dependencies {
 
     testCompileOnly("org.projectlombok", "lombok", "1.18.14")
     testAnnotationProcessor("org.projectlombok", "lombok", "1.18.14")
+
+    compile("org.telegram", "telegrambots", "3.6")
 }
 
 configure<JavaPluginConvention> {
